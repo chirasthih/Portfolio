@@ -1,0 +1,23 @@
+.profile-img {
+  width: 100%;
+  max-width: 250px; 
+  height: auto; 
+}
+
+.middle-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: larger;
+  color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+  .middle-align {
+    flex-direction: column;
+  }
+}
+#skills ul {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+}
